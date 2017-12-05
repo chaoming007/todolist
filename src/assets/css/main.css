@@ -1,0 +1,26 @@
+*{ padding: 0; margin: 0 }
+ul,li{ list-style: none;  }
+em,i{font-style: normal}
+a{ color: #000000; text-decoration: none }
+a:hover{ color: #ff0000 }
+.main-box{ width: 500px; margin: 0 auto 30px }
+.input-sty{ border: 1px solid #cccccc; padding: 10px; margin: 0 0 30px }
+.input-sty .inp{ width: 300px; height: 30px; line-height: 30px; border: 1px solid #000000 }
+.input-sty .btn{ width: 50px; height: 30px; line-height: 30px; font-size: 14px; margin: 0 0 0 10px }
+.tab-nav ul{ height: 50px; overflow: hidden; border: 1px solid #999999 }
+.tab-nav li{  text-align: center; font-size: 14px; float: left; line-height: 50px;border-right: 1px solid #999999  }
+.tab-nav li a{ display: block;padding: 0 20px; }
+.tab-nav li .current{ background: #999999; color: #000000 }
+.tab-list{ margin: 0 0 30px }
+.tab-list ul{ margin: 0 }
+.tab-list li{ height: 30px; line-height: 30px; border-bottom: 1px dotted #999999; font-size: 14px; text-align: left; overflow: hidden; position: relative }
+.tab-list li span{  float: left; display: block; padding: 0 50px 0 10px; overflow: hidden }
+.tab-list li em{ display: none; width: 50px; background: #999999; height: 30px; line-height: 30px; position: absolute; top: 0; right: 0; text-align:center; cursor: pointer }
+.tab-list li.current{ background: #333333; color: #ffffff }
+.tab-list li.current em{ display: block }
+.tab-list li i{ display: block; color: #0000ff ; position: absolute; top: 0; right: 0; text-align:center }
+.tab-list li span i{ position: relative; display: inline; color: #ff0000 }
+.tab-list li span i.current{color: #0000ff}
+
+
+
