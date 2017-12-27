@@ -2,7 +2,7 @@
   <div>
 		 <ul>
 			<li v-for="(item,key) in getYiState" :key=key @mouseenter="addClassFun($event)" @mouseleave="removeClassFun($event)">
-			  <span>{{item.dat}}<i class="current">{{item.state==true?"(已完成)":""}}</i></span>
+			  <span>{{item.dat}}<i class="current">{{item.state==true?"(已完成测试)":""}}</i></span>
         <em @click="delDat(item)">删除</em>
 			</li>
 
